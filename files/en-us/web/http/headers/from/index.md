@@ -9,14 +9,15 @@ browser-compat: http.headers.From
 ---
 {{HTTPSidebar}}
 
+> **Warning:** You shouldn't use the `From` header for access control or authentication.
+
 The **`From`** request header contains an Internet email
 address for a human user who controls the requesting user agent.
 
 If you are running a robotic user agent (e.g. a crawler), the `From` header
-should be sent, so you can be contacted if problems occur on servers, such as if the
+must be sent, so you can be contacted if problems occur on servers, such as if the
 robot is sending excessive, unwanted, or invalid requests.
 
-> **Warning:** You shouldn't use the `From` header for access control or authentication.
 
 <table class="properties">
   <tbody>
